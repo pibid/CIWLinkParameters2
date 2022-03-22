@@ -1,0 +1,40 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>CIWLinkParameters2</Name>
+    <Description>&lt;No description available&gt;</Description>
+    <ProjectType>VisualBasic</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>CIWLinkParameters2</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="CIWLinkParameters.vbproj" File="CIWLinkParameters.vbproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.vb">AssemblyInfo.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Autodesk.CIWLinkParameters.Inventor.addin">Autodesk.CIWLinkParameters.Inventor.addin</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="CIWLinkParameters.X.manifest">CIWLinkParameters.X.manifest</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Form_LinkParameters.vb">Form_LinkParameters.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Form_LinkParameters.designer.vb">Form_LinkParameters.designer.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Form_LinkParameters.resx">Form_LinkParameters.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Form_SavePDF.vb">Form_SavePDF.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Form_SavePDF.Designer.vb">Form_SavePDF.Designer.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Form_SavePDF.resx">Form_SavePDF.resx</ProjectItem>
+      <Folder Name="My Project" TargetFolderName="My Project">
+        <ProjectItem ReplaceParameters="true" TargetFileName="Resources.resx">Resources.resx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Resources.Designer.vb">Resources.Designer.vb</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Readme.txt">Readme.txt</ProjectItem>
+      <Folder Name="Resources" TargetFolderName="Resources">
+        <ProjectItem ReplaceParameters="false" TargetFileName="icons8-link-100.png">icons8-link-100.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="icons8-link-50.png">icons8-link-50.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="pdf.png">pdf.png</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="StandardAddInServer.vb">StandardAddInServer.vb</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>

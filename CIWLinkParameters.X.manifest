@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+
+  <assemblyIdentity name="CIWLinkParameters" version="1.0.0.0"></assemblyIdentity>
+
+  <clrClass clsid="{706eb45b-8b5a-4ef2-9f85-9fa321f9f89e}" progid="CIWLinkParameters.StandardAddInServer" threadingModel="Both" name="CIWLinkParameters.CIWLinkParameters.StandardAddInServer" runtimeVersion=""></clrClass>
+
+  <file name="CIWLinkParameters.dll" hashalg="SHA1"></file>
+
+</assembly>

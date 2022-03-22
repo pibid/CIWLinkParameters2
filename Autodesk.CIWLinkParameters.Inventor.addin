@@ -1,0 +1,14 @@
+<Addin Type="Standard">
+  <!--Created for Autodesk Inventor Version 23.0-->
+  <ClassId>{706eb45b-8b5a-4ef2-9f85-9fa321f9f89e}</ClassId>
+  <ClientId>{706eb45b-8b5a-4ef2-9f85-9fa321f9f89e}</ClientId>
+  <DisplayName>CIWLinkParameters</DisplayName>
+  <Description>CIWLinkParameters</Description>
+  <Assembly>CIWLinkParameters.dll</Assembly>
+  <LoadOnStartUp>1</LoadOnStartUp>
+  <UserUnloadable>1</UserUnloadable>
+  <Hidden>0</Hidden>
+  <SupportedSoftwareVersionGreaterThan>22..</SupportedSoftwareVersionGreaterThan>
+  <DataVersion>1</DataVersion>
+  <UserInterfaceVersion>1</UserInterfaceVersion>
+</Addin>
